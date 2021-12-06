@@ -9,9 +9,8 @@ lista de posibles mejoras:
 -reemplazar íconos por SVG.
 -Terminar de tipar los servicios.
 
-Debido, estoy capacitado de aplicar cualquier mejora que requiera, solo me faltó un poco de tiempo.
+Debido a que no es el único proyecto que debo entregar me faltó un poco de tiempo para desarrollar este más.
 
-Espero les guste!
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.15.
 
