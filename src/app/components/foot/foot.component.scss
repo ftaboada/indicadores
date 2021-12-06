@@ -1,0 +1,12 @@
+$blue: #001a4d;
+
+footer {
+  height: 85px;
+  background-color: $blue;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 33px;
+  clear: both;
+  position: relative;
+}

@@ -1,0 +1,21 @@
+<a class="back-menu" [routerLink]="['']">
+    <span><</span>
+    <p>Indicadores</p>
+</a>    
+<section class="details--container">
+ 
+        <div class="details">
+        <h2 class="details--value">{{this.value}}</h2>
+        <ng-container *ngFor="let info of details">
+            <div class="details--pair-values">
+                <p>{{info.name}}</p>
+                <span>{{info.data}}</span>
+            </div>
+        </ng-container>
+    </div>
+ 
+<div>
+    <canvas id="chart"></canvas>
+</div>
+
+</section>

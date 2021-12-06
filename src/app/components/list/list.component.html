@@ -1,0 +1,16 @@
+<section class="list-container">
+    <ul class="list-group">
+        <ng-container *ngFor="let indicator of data">
+            <li (click)="goToPriceList(indicator.codigo)"  class="list-group-item indicator">
+                <div class="indicator--text">
+               <p> {{indicator.nombre}} </p>
+               <span>{{indicator.unidad_medida}}</span>
+            </div>
+            <div class="indicator--icons">
+                <span (click)="goToDetails(indicator.codigo)">i</span>
+                <p>></p>
+            </div>
+            </li>
+        </ng-container>
+    </ul>
+</section>

@@ -1,0 +1,20 @@
+<div class="back-menu" >
+    <a [routerLink]="['']" class="back-menu--link">
+    <span><</span>
+    <p>Indicadores</p>
+    </a>
+   <div class="back-menu--title">
+       <p>{{this.code}}</p>
+   </div>
+</div> 
+<section class='price-detail-container'>
+   
+    <ul class="list-group">
+        <ng-container *ngFor="let detail of serie">
+            <li class="list-group-item price-detail">
+                <p>{{detail.fecha}}</p>
+                <p><span>{{detail.valor}}</span></p>
+            </li>
+        </ng-container>
+    </ul>
+</section>

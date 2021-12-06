@@ -1,5 +1,18 @@
 # Indicadores
 
+Este desafío angular, está desarrollado con angular 11, bootsrap 4 y sass. El estado de la tarea es completado, aunque hay muchos puntos donde aplicar mejoras.
+lista de posibles mejoras:
+-agregar gráficos.
+-mejorar la responsividad.
+-agregar filtros de fecha.
+-agregar loaders.
+-reemplazar íconos por SVG.
+-Terminar de tipar los servicios.
+
+Debido, estoy capacitado de aplicar cualquier mejora que requiera, solo me faltó un poco de tiempo.
+
+Espero les guste!
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.15.
 
 ## Development server

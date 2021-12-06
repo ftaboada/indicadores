@@ -1,0 +1,44 @@
+$blue: #001a4d;
+
+.price-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  p {
+    color: $blue;
+    span {
+      color: rgba(0, 0, 0, 0.83);
+    }
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .price-detail-container {
+    display: flex;
+    justify-content: center;
+  }
+  .price-detail {
+    width: 70vw;
+    max-height: 90vh;
+  }
+}
+.back-menu {
+  display: flex;
+  background-color: #f1f1f1;
+  height: 44px;
+  align-items: center;
+  border-radius: 4px;
+  padding: 0px 12px;
+  &--title {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  &--link {
+    display: flex;
+    position: absolute;
+  }
+  p {
+    margin: 0px 5px;
+  }
+}

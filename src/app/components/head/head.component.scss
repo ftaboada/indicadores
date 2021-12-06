@@ -1,0 +1,9 @@
+$blue: #001a4d;
+.head {
+  background-color: $blue;
+  height: 72px;
+  &--logo {
+    width: 181px;
+    margin: 5px 0px 0px 8px;
+  }
+}
